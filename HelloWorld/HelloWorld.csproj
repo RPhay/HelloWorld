@@ -11,6 +11,7 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -50,7 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\QuoteMan\QuoteMan.csproj">
-      <Project>{7b679f0b-4921-437d-b968-eb864efdcb15}</Project>
+      <Project>{521e06f7-b19b-42c1-9336-737322573b02}</Project>
       <Name>QuoteMan</Name>
     </ProjectReference>
   </ItemGroup>
